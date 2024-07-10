@@ -12,3 +12,4 @@ django-celery-email~=3.0.0
 # (eg: Amazon S3, GCS)
 django-storages~=1.12.3
 boto3~=1.24.8
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
