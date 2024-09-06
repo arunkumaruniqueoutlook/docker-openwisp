@@ -1,3 +1,4 @@
 docker~=5.0.3
 selenium~=4.1.0
 openwisp-utils[qa] @ https://github.com/openwisp/openwisp-utils/tarball/master
+django>=4.2.16 # not directly required, pinned by Snyk to avoid a vulnerability
